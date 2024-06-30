@@ -16,3 +16,23 @@ img{
     justify-content: center;
     margin-right: 30px;
 }
+.bada{
+    transition: 0.3s;
+    border: 5px solid;
+}
+.bada:hover{
+    width: 600px;
+    height: 600px;
+    transition: 0.3s;
+    border-left: 100px solid;
+    border-right: 100px solid;
+}
+.lambu{
+    border: 5px solid;
+    transition: 0.3s;
+}
+.lambu:hover{
+    border-left: 500px solid;
+    border-right: 500px solid;
+    transition: 0.3s;
+}
