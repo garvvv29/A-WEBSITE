@@ -1,9 +1,18 @@
 body{
     background-color:rgb(22, 1, 1);
 }
-#images{
+div{
 text-align: center;
+margin: 30px;
 }
 h2{
     color: antiquewhite;
+}
+main{
+    display: flex;
+    justify-content:center;
+}
+img{
+    justify-content: center;
+    margin-right: 30px;
 }
