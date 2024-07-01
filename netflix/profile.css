@@ -1,0 +1,118 @@
+#who{
+ position: absolute;
+ top: 23%;
+ left: 37%;
+ font-size: 50px;
+ font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+body{
+    background-color: rgba(21,20,21,255);
+}
+main{
+display: flex;
+}
+.prof{
+   overflow: hidden;
+}
+#profile1{
+    height: 160px; 
+    border-radius: 5%;
+    transition: 0.1s;
+}
+#profile1:hover{
+    transition: 0.05s;
+    outline: 3px solid white;
+}
+    
+#profile2{
+    height: 160px;
+    width: 160px;
+   
+    border-radius: 5%;
+}
+#profile2:hover{
+    transition: 0.05s;
+    outline: 3px solid white;
+}
+#profile3{
+    height: 160px;
+    width: 160px;
+    
+    border-radius: 5%;
+}
+#profile3:hover{
+    transition: 0.05s;
+    outline: 3px solid white;
+}
+#addprofile{
+    height: 160px;
+    width: 160px;
+  
+   
+    border-radius: 5%;
+}
+#addprofile:hover{
+   content: url(https://cdn.discordapp.com/attachments/1238374493995663396/1257390176402145300/image.png?ex=66843b5b&is=6682e9db&hm=049381346f81e448d6b4c4f9fb47187b3782e92f2d6924a9ce3f8246a5382565&);
+    transition: 0.05s;
+}
+img{
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+#p1{
+    height: 200px;
+    width: 160px;
+    position:absolute;
+    top: 42%;
+    left: 25%;
+}
+#p1:hover{
+    transition: 0.05s;
+    color: white;
+}
+#p2{
+    height: 200px;
+    width: 160px;
+    position:absolute;
+    top: 42%;
+    left: 38%;
+}
+#p2:hover{
+    transition: 0.05s;
+    color: white;
+}
+#p3{
+    height: 200px;
+    width: 160px;
+   
+    position:absolute;
+    top: 42%;
+    left: 51%;
+}
+#p3:hover{
+    transition: 0.05s;
+    color: white;
+}
+#ap{
+    height: 200px;
+    width: 160px;
+    position:absolute;
+    top: 42%;
+    left: 64%;
+}
+#ap:hover{
+    transition: 0.05s;
+    color: white;
+}
+.names{
+    text-align: center;
+    color: rgb(137, 131, 131);
+    font-size: 20px;
+}
+button{
+    height: 10%;
+    width: 10%;
+    background-color: wheat;
+}

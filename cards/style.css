@@ -1,0 +1,102 @@
+
+html,body{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+}
+#main{
+    height: 100%;
+    width: 100%;
+}
+.cards{
+    transform: translate(-50%,-50%);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    height: 500px;
+    width: 300px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 20px;
+    overflow: hidden;
+}
+#one{
+    z-index: 5;
+    transform: translate(-50%,-50%) rotate(-24deg);
+    transition: 0.3s;
+}
+#one:hover{
+    z-index: 20;
+    transition: 0.3s;
+}
+#two{
+    z-index: 6;
+    transform: translate(-50%,-50%)    rotate(-16deg);
+    transition: 0.3s;
+}
+#two:hover{
+    z-index: 20;
+    transition: 0.3s;
+}
+#three{
+    z-index: 7;
+    transform: translate(-50%,-50%)   rotate(-8deg);
+    transition: 0.3s;
+}
+#three:hover{
+    z-index: 20;
+    transition: 0.3s;
+}
+#four{
+    z-index: 8;
+    transform: translate(-50%,-50%);
+    transition: 0.3s;
+}
+#four:hover{
+    z-index: 20;
+    transition: 0.3s;
+}
+#five{
+    z-index: 4;
+    transform: translate(-50%,-50%)   rotate(-32deg);
+    transition: 0.3s;
+}
+#five:hover{
+    z-index: 20;
+    transition: 0.3s;
+}
+#six{
+    z-index: 3;
+    transform: translate(-50%,-50%)   rotate(-40deg);
+    transition: 0.3s;
+}
+#six:hover{
+    z-index: 20;
+    transition: 0.3s;
+}
+#seven{
+    z-index: 2;
+    transform: translate(-50%,-50%)   rotate(-48deg);
+    transition: 0.3s;
+}
+#seven:hover{
+    z-index: 20;
+    transition: 0.3s;
+}
+#eight{
+    z-index: 1;
+    transform: translate(-50%,-50%)   rotate(-56deg);transition: 0.3s;
+}
+#eight:hover{
+    z-index: 20;
+    transition: 0.3s;
+}
+img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+a{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 50px;
+}
